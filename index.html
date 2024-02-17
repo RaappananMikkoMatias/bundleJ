@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    <img src="./img/blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg" alt="TMDB-logo">
+</head>
+<body>
+    <h1>Elokuvan arvonta katsontaan</h1>
+    <h3>Miltä vuosikymmeneltä haluat elokuvan olevan?</h3>    
+    <label for="1960">1960</label>
+    <input type="radio" name="year" value="1960" checked>
+    <label for="1970">1970</label>
+    <input type="radio" name="year" value="1970">
+    <label for="1980">1980</label>
+    <input type="radio" name="year" value="1980">
+    <label for="1990">1990</label>
+    <input type="radio" name="year" value="1990">
+    <label for="2000">2000</label>
+    <input type="radio" name="year" value="2000">
+    <label for="2010">2010</label>
+    <input type="radio" name="year" value="2010">
+    <label for="2020">2020</label>
+    <input type="radio" name="year" value="2020">
+    
+    <h3>Kotimainen vai ulkomainen?</h3>
+    <label for="Kotimainen">Kotimainen</label>
+    <input type="radio" name="kieli" value="kotimainen" checked>
+    <label for="Ulkomainen">Ulkomanen</label>
+    <input type="radio" name="kieli" value="ulkomainen">
+
+    <h3>Genre?</h3>
+    <label for="komedia">Komedia</label>
+    <input type="radio" name="genre" value="Komedia" checked>
+    <label for="kauhu">Kauhu</label>
+    <input type="radio" name="genre" value="Kauhu">
+    <label for="draama">Draama</label>
+    <input type="radio" name="genre" value="Draama">
+    
+    <h3>Arosana</h3>
+    <label for="poor">Huono (0-3)</label>
+    <input type="radio" name="points" value="Huono" checked>
+    <label for="OK">OK (4-7)</label>
+    <input type="radio" name="points" value="OK">
+    <label for="GOOD">Hyvä (8-10)</label>
+    <input type="radio" name="points" value="Hyvä">
+
+    <br><br>
+    <button>Arvo elokuva</button>
+
+    <h3><output id="title"></output></h3>
+    <output id="linkki"><a href="">TheMovieDataBase</a></output>
+    <br><br>
+    <img id=kuva src="" alt="" width="50%">
+    
+    
+<script src="./js/functions.js"></script>
+</body>
+</html>
